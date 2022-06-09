@@ -133,12 +133,12 @@
         // },
         methods: {
           async getContacts() {
-            var response = await fetch("http://localhost:8000/api/contacts/");
+            var response = await fetch("https://freevcf.herokuapp.com/api/contacts/");
             this.contacts = await response.json();
           },
           async createContact() {
             // await this.getContacts();
-            await fetch("http://localhost:8000/api/contacts/", {
+            await fetch("https://freevcf.herokuapp.com/api/contacts/", {
               method: "POST",
               headers: {
                 "Content-Type": "application/json",
@@ -146,7 +146,11 @@
               body: JSON.stringify(this.contact),
             })
               .then((response) => {
-                console.log(response.status);
+                if(response.status < 400){
+                  window.location.href = "https://freevcf.herokuapp.com/success/";
+                }else{
+                  alert("Please confirm the details you have provided");
+                }
               })
               .catch((error) => console.log(error));
             // await this.getContacts();
