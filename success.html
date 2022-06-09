@@ -1,0 +1,19 @@
+{% extends 'base/index.html' %}{% block content %} {% load static %}
+    <div class="wrapper">
+        <div class="header-bar">
+            <h2>Success!</h2>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="card">
+                    <h4 class="card-title">You are index {{value}} of {{limit}}</h4>
+                    <p class="card-text">You will receive an <strong>email</strong> with a <strong>vcf</strong>  file with your contact included
+                        after <strong>{{remaining}}</strong> more user{{remaining|pluralize}}!
+                    </p>
+                </div>
+                
+            </div>
+          </div>
+        </div>
+    </div>
+{%endblock content%}

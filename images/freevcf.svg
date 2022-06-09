@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="512"
+   height="512"
+   viewBox="0 0 512 512"
+   version="1.1"
+   id="svg5"
+   inkscape:export-filename="favicon.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   inkscape:version="1.2 (dc2aeda, 2022-05-15)"
+   sodipodi:docname="freevcf.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     showgrid="false"
+     inkscape:zoom="0.79974785"
+     inkscape:cx="288.21584"
+     inkscape:cy="1167.2429"
+     inkscape:window-width="1280"
+     inkscape:window-height="701"
+     inkscape:window-x="0"
+     inkscape:window-y="23"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#ff6600;fill-opacity:0.996016;stroke-width:9.25668"
+       id="rect184"
+       width="512"
+       height="512"
+       x="0.85584402"
+       y="3.0137968"
+       ry="246.15385"
+       inkscape:export-filename="favicon.png"
+       inkscape:export-xdpi="163.06819"
+       inkscape:export-ydpi="163.06819" />
+    <path
+       id="rect452"
+       style="fill:#000080;fill-opacity:0.996016;stroke-width:1.80436"
+       d="m 122.56581,80.902344 c -9.09756,0 -16.41993,7.324321 -16.41993,16.421875 V 420.70312 c 0,9.09756 7.32237,16.42188 16.41993,16.42188 h 268.57812 c 9.09755,0 16.42188,-7.32432 16.42188,-16.42188 V 140.25195 L 348.21424,80.902344 Z"
+       inkscape:export-filename="logo.png"
+       inkscape:export-xdpi="163.06819"
+       inkscape:export-ydpi="163.06819" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:74.6667px;font-family:'ITF Devanagari Marathi';-inkscape-font-specification:'ITF Devanagari Marathi, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:0.996016"
+       x="151.30891"
+       y="277.58749"
+       id="text581"><tspan
+         sodipodi:role="line"
+         id="tspan579"
+         x="151.30891"
+         y="277.58749">FREE</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:85.3333px;font-family:'ITF Devanagari Marathi';-inkscape-font-specification:'ITF Devanagari Marathi, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ff6500;fill-opacity:0.99607843"
+       x="166.71005"
+       y="385.1214"
+       id="text737"><tspan
+         sodipodi:role="line"
+         id="tspan735"
+         x="166.71005"
+         y="385.1214">VCF</tspan></text>
+  </g>
+</svg>

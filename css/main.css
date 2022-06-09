@@ -1,0 +1,104 @@
+body {
+  overflow-x: hidden;
+  margin: 0;
+  background: linear-gradient(150deg, #0c64df45, #21008f62, #f4720062);
+
+}
+main {
+  min-height: 100vh;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Raleway", sans-serif;
+}
+
+a,
+p {
+  color: rgb(17, 17, 17);
+}
+
+.wrapper {
+  max-width: 850px;
+  min-width: 200px;
+  margin: auto;
+  /* background-color: rgb(255, 255, 255); */
+  box-shadow: 0 3px 8px 2px rgba(0, 0, 0, 0.178);
+}
+
+.header-bar {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  flex-direction: column;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px 5px 0 0;
+  background: linear-gradient(
+    120deg,
+    rgba(12, 100, 223, 0.854),
+    #22008f,
+    rgb(239, 135, 0)
+  );
+}
+
+.header-bar a {
+  color: rgb(194, 194, 194);
+  text-decoration: none;
+  font-size: 0.7em;
+  display: block;
+  text-align: right;
+  float: none;
+}
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="tel"],
+textarea {
+  border: 2px solid rgb(0, 45, 128);
+  border-radius: 5px;
+  padding: 0.5em;
+  width: 100%;
+}
+
+label {
+  padding-top: 10px !important;
+  display: block;
+}
+
+.button {
+  border: 2px solid #16005e;
+  width: 100%;
+  background-color: #22008f;
+  color: rgb(252, 252, 252);
+  padding: 0.5em;
+  font-size: 14px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.card {
+  padding: 20px;
+  
+}
+.padding-2 {
+  padding: 2em;
+}
+img.logo {
+  width: 70px;
+}
+footer.footer{
+    background-color: #16005e;
+    min-height:100px ;
+}
+footer p, footer small{  
+color: rgba(255, 255, 255, 0.705);
+}
+.card ol li{
+  margin: 2em;
+}
