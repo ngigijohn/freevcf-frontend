@@ -104,7 +104,7 @@
     <footer class="row footer padding-2">
       <div class="col"></div>
       <div class="col text-center">
-        <p>created by <a href="http://twitter.com/_ngigijohn">ngigijohn</a></p>
+        <p>created by <a href="https://twitter.com/_ngigijohn">ngigijohn</a></p>
         <div class="flex">
           <img width="48px" src="https://res.cloudinary.com/script-silicon/image/upload/v1658598580/assets/2_tzaam0.png" alt="" />
           <small>Product of Script Silicon Company</small>
@@ -133,12 +133,12 @@
         // },
         methods: {
           async getContacts() {
-            var response = await fetch("http://scriptsilicon.pythonanywhere.com/api/contacts/");
+            var response = await fetch("https://scriptsilicon.pythonanywhere.com/api/contacts/");
             this.contacts = await response.json();
           },
           async createContact() {
             // await this.getContacts();
-            await fetch("http://scriptsilicon.pythonanywhere.com/api/contacts/", {
+            await fetch("https://scriptsilicon.pythonanywhere.com/api/contacts/", {
               method: "POST",
               headers: {
                 "Content-Type": "application/json",
@@ -147,7 +147,7 @@
             })
               .then((response) => {
                 if(response.status < 400){
-                  window.location.href = "http://scriptsilicon.pythonanywhere.com/success/";
+                  window.location.href = "https://scriptsilicon.pythonanywhere.com/success/";
                 }else{
                   alert("Please confirm the details you have provided");
                 }
